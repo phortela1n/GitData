@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../shared/generalStyles.css';
-import './Landing.css';
+import './Landing.scss';
 import Login from './Login/Login';
 
 function Landing() {

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import landingStore from '../../../stores/landingStore';
-import './RepoCreation.css';
+import './RepoCreation.scss';
 import '../../../shared/generalStyles.css';
 import { createRepo } from '../../../actions/userDetailActions';
 

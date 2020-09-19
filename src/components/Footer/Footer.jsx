@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../shared/generalStyles.css';
-import './Footer.css';
+import './Footer.scss';
 
 function Footer() {
 	return (
