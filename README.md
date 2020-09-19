@@ -70,9 +70,10 @@
 - API-Client
 - Jasmine
 - Jest
-- Bootstrap
+- React Bootstrap
 - flexBox
 - Css3
+- SCSS
 - Html5
 - Firebase
 
@@ -109,29 +110,85 @@ KANBAN board with Trello
 #### SRC TREE
 
 ```
-├── API-Cli
-│   └── GitHubApi.js
 ├── actions
 │   ├── actionTypes.js
-│   └── landingActions.js
+│   ├── loginActions.js
+│   ├── repoDetailActions.js
+│   └── userDetailActions.js
 ├── components
+│   ├── AuthComp
+|   |   ├── AuthComp.js
+│   │   └── AuthComp.css
+│   ├── Footer
+|   |   ├── __snapshots__
+|   |   ├── Footer.css
+|   |   ├── Footer.js
+│   │   └── Footer.snapshot.test.js
 │   ├── Landing
-│   │   └── Landing.js
-│   ├── NavBar
-│   │   └── HeaderNavbar.js
+│   |   ├──Login
+|   |   |  ├── Login.css
+|   |   |  ├── Login.js
+|   |   |  └── Login.snapshot.test.js
+│   |   ├──PopUpBox
+|   |   |  ├── __snapshots__
+|   |   |  ├── PopUpBox.css
+|   |   |  ├── PopUpBox.js
+|   |   |  └── PopUpBox.snapshot.test.js
+│   │   |── Landing.css
+│   │   |── Landing.js
+│   │   └── Landing.snapshot.test
+│   ├── Navbar
+│   |   |   ├──Switch
+|   |   |   |  ├── __snapshots__
+|   |   |   |  ├── Switch.css
+|   |   |   |  ├── Switch.js
+|   |   |   |  └── Switch.snapshot.test.js
+|   |   ├── HeaderNavBar.css
+|   |   ├── HeaderNavBar.js
+│   │   └── HeaderNavBar.snapshot.test.js
+│   ├── RepoCard
+|   |   ├── RepoCard.css
+|   |   ├── RepoCard.js
+│   │   └── RepoCard.snapshot.test.js
 │   ├── RepoDetail
-│   │   └── RepoDetail.js
+|   |   ├── RepoDetail.css
+|   |   ├── RepoDetail.js
+│   │   └── RepoDetail.snapshot.test.js
 │   └── UserDetail
-│       └── UserDetail.js
+│   |   ├──RepoCreation
+|   |   |  ├── __snapshots__
+|   |   |  ├── RepoDetail.css
+|   |   |  ├── RepoDetail.js
+|   |   |  └── RepoDetail.snapshot.test.js
+│   |   ├──UserInfo
+|   |   |  ├── __snapshots__
+|   |   |  ├── UserInfo.css
+|   |   |  ├── UserInfo.js
+|   |   |  └── UserInfo.snapshot.test.js
+│   │   |── UserDetail.css
+│   │   |── UserDetail.js
+│   │   └── UserDetail.snapshot.test
+├── firebase
+│   ├── firebaseAuthMethod.js
+│   └── firebaseinit.js
+├── shared
+│   ├── colorMock.js
+│   ├── generalStyles.css
+│   └── githubApiConst.js
 ├── stores
 │   ├── landingStore.js
+│   ├── landingStore.spec.js
 │   ├── navbarStore.js
+│   ├── navbarStore.spec.js
 │   ├── repoDetailStore.js
-│   └── userDetailStore.js
-├── components
+│   ├── repoDetailStore.spec.js
+│   ├── userInfoStore.js
+│   ├── userDetailStore.js
+│   └── userDetailStore.spec.js
 ├── App.js
-├── appDispatcher.js
+├── dispatcher.js
 ├── index.js
+├── serviceWorker.js
 └── registerServiceWorker.js
 ```
 
