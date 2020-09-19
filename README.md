@@ -32,6 +32,26 @@
 
 ---
 
+## Feature's DEMO
+
+### Login
+
+![Gif](https://gyazo.com/1527094b903fe4ac45e6cfde74716094.gif)
+
+### Repo details
+
+![Gif](https://gyazo.com/5d8f4da7865710d68f1657a46583d261.gif)
+
+### Create repo
+
+![Gif](https://gyazo.com/db4c0424b694d28730e2e339b067dab7.gif)
+
+### DarkMode
+
+![Gif](https://gyazo.com/cb3c79615c43527655ff8191341450a6.gif)
+
+---
+
 ## Initial Wireframe
 
 ### Mobile layout
@@ -50,10 +70,12 @@
 - API-Client
 - Jasmine
 - Jest
-- Bootstrap
+- React Bootstrap
 - flexBox
 - Css3
+- SCSS
 - Html5
+- Firebase
 
 ### GitHub API
 
@@ -88,29 +110,85 @@ KANBAN board with Trello
 #### SRC TREE
 
 ```
-├── API-Cli
-│   └── GitHubApi.js
 ├── actions
 │   ├── actionTypes.js
-│   └── landingActions.js
+│   ├── loginActions.js
+│   ├── repoDetailActions.js
+│   └── userDetailActions.js
 ├── components
+│   ├── AuthComp
+│   │   ├── AuthComp.js
+│   │   └── AuthComp.css
+│   ├── Footer
+│   │   ├── __snapshots__
+│   │   ├── Footer.css
+│   │   ├── Footer.js
+│   │   └── Footer.snapshot.test.js
 │   ├── Landing
-│   │   └── Landing.js
-│   ├── NavBar
-│   │   └── HeaderNavbar.js
+│   │   ├──Login
+│   │   │  ├── Login.css
+│   │   │  ├── Login.js
+│   │   │  └── Login.snapshot.test.js
+│   │   ├──PopUpBox
+│   │   │  ├── __snapshots__
+│   │   │  ├── PopUpBox.css
+│   │   │  ├── PopUpBox.js
+│   │   │  └── PopUpBox.snapshot.test.js
+│   │   │── Landing.css
+│   │   │── Landing.js
+│   │   └── Landing.snapshot.test
+│   ├── Navbar
+│   │   │   ├──Switch
+│   │   │   │  ├── __snapshots__
+│   │   │   │  ├── Switch.css
+│   │   │   │  ├── Switch.js
+│   │   │   │  └── Switch.snapshot.test.js
+│   │   ├── HeaderNavBar.css
+│   │   ├── HeaderNavBar.js
+│   │   └── HeaderNavBar.snapshot.test.js
+│   ├── RepoCard
+│   │   ├── RepoCard.css
+│   │   ├── RepoCard.js
+│   │   └── RepoCard.snapshot.test.js
 │   ├── RepoDetail
-│   │   └── RepoDetail.js
+│   │   ├── RepoDetail.css
+│   │   ├── RepoDetail.js
+│   │   └── RepoDetail.snapshot.test.js
 │   └── UserDetail
-│       └── UserDetail.js
+│   │   ├──RepoCreation
+│   │   │  ├── __snapshots__
+│   │   │  ├── RepoDetail.css
+│   │   │  ├── RepoDetail.js
+│   │   │  └── RepoDetail.snapshot.test.js
+│   │   ├──UserInfo
+│   │   │  ├── __snapshots__
+│   │   │  ├── UserInfo.css
+│   │   │  ├── UserInfo.js
+│   │   │  └── UserInfo.snapshot.test.js
+│   │   │── UserDetail.css
+│   │   │── UserDetail.js
+│   │   └── UserDetail.snapshot.test
+├── firebase
+│   ├── firebaseAuthMethod.js
+│   └── firebaseinit.js
+├── shared
+│   ├── colorMock.js
+│   ├── generalStyles.css
+│   └── githubApiConst.js
 ├── stores
 │   ├── landingStore.js
+│   ├── landingStore.spec.js
 │   ├── navbarStore.js
+│   ├── navbarStore.spec.js
 │   ├── repoDetailStore.js
-│   └── userDetailStore.js
-├── components
+│   ├── repoDetailStore.spec.js
+│   ├── userInfoStore.js
+│   ├── userDetailStore.js
+│   └── userDetailStore.spec.js
 ├── App.js
-├── appDispatcher.js
+├── dispatcher.js
 ├── index.js
+├── serviceWorker.js
 └── registerServiceWorker.js
 ```
 
