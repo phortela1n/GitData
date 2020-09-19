@@ -1,18 +1,6 @@
 # 📈GITDATA
 
-The main purpose of the App is to offer the posibility to the user to see Git Hub data in a visual way. The graphics will be displayed using data from Git Hub API.
-
-`Future place for the link of the App`
-
-## Initial Wireframe
-
-### Mobile layout
-
-![Imagen](https://i.gyazo.com/88152254c077829e32e9c04ba8ffd085.png)
-
-### Desktop layout
-
-![Imagen](https://i.gyazo.com/7f6d9013750fea3f216f1ffe5f75567e.png)
+## The main purpose of the App is to offer the posibility to the user to see Git Hub data in a visual way. The graphics will be displayed using data from Git Hub API.
 
 ---
 
@@ -23,6 +11,36 @@ The main purpose of the App is to offer the posibility to the user to see Git Hu
 - [Pablo Hortelano](https://github.com/phortela1n)
 
 ---
+
+## Getting Started
+
+### Clone the repository from github.com to your workspace folder:
+
+`$ git clone https://github.com/phortela1n/GitData.git`
+
+### Navigate to the repository folder:
+
+`$ cd GitData`
+
+### Install dependencies
+
+`$ npm install`
+
+### Run the server
+
+`$ npm start`
+
+---
+
+## Initial Wireframe
+
+### Mobile layout
+
+![Imagen](https://i.gyazo.com/88152254c077829e32e9c04ba8ffd085.png)
+
+### Desktop layout
+
+![Imagen](https://i.gyazo.com/7f6d9013750fea3f216f1ffe5f75567e.png)
 
 ## Technologies
 
