@@ -117,56 +117,56 @@ KANBAN board with Trello
 │   └── userDetailActions.js
 ├── components
 │   ├── AuthComp
-|   |   ├── AuthComp.js
+│   │   ├── AuthComp.js
 │   │   └── AuthComp.css
 │   ├── Footer
-|   |   ├── __snapshots__
-|   |   ├── Footer.css
-|   |   ├── Footer.js
+│   │   ├── __snapshots__
+│   │   ├── Footer.css
+│   │   ├── Footer.js
 │   │   └── Footer.snapshot.test.js
 │   ├── Landing
-│   |   ├──Login
-|   |   |  ├── Login.css
-|   |   |  ├── Login.js
-|   |   |  └── Login.snapshot.test.js
-│   |   ├──PopUpBox
-|   |   |  ├── __snapshots__
-|   |   |  ├── PopUpBox.css
-|   |   |  ├── PopUpBox.js
-|   |   |  └── PopUpBox.snapshot.test.js
-│   │   |── Landing.css
-│   │   |── Landing.js
+│   │   ├──Login
+│   │   │  ├── Login.css
+│   │   │  ├── Login.js
+│   │   │  └── Login.snapshot.test.js
+│   │   ├──PopUpBox
+│   │   │  ├── __snapshots__
+│   │   │  ├── PopUpBox.css
+│   │   │  ├── PopUpBox.js
+│   │   │  └── PopUpBox.snapshot.test.js
+│   │   │── Landing.css
+│   │   │── Landing.js
 │   │   └── Landing.snapshot.test
 │   ├── Navbar
-│   |   |   ├──Switch
-|   |   |   |  ├── __snapshots__
-|   |   |   |  ├── Switch.css
-|   |   |   |  ├── Switch.js
-|   |   |   |  └── Switch.snapshot.test.js
-|   |   ├── HeaderNavBar.css
-|   |   ├── HeaderNavBar.js
+│   │   │   ├──Switch
+│   │   │   │  ├── __snapshots__
+│   │   │   │  ├── Switch.css
+│   │   │   │  ├── Switch.js
+│   │   │   │  └── Switch.snapshot.test.js
+│   │   ├── HeaderNavBar.css
+│   │   ├── HeaderNavBar.js
 │   │   └── HeaderNavBar.snapshot.test.js
 │   ├── RepoCard
-|   |   ├── RepoCard.css
-|   |   ├── RepoCard.js
+│   │   ├── RepoCard.css
+│   │   ├── RepoCard.js
 │   │   └── RepoCard.snapshot.test.js
 │   ├── RepoDetail
-|   |   ├── RepoDetail.css
-|   |   ├── RepoDetail.js
+│   │   ├── RepoDetail.css
+│   │   ├── RepoDetail.js
 │   │   └── RepoDetail.snapshot.test.js
 │   └── UserDetail
-│   |   ├──RepoCreation
-|   |   |  ├── __snapshots__
-|   |   |  ├── RepoDetail.css
-|   |   |  ├── RepoDetail.js
-|   |   |  └── RepoDetail.snapshot.test.js
-│   |   ├──UserInfo
-|   |   |  ├── __snapshots__
-|   |   |  ├── UserInfo.css
-|   |   |  ├── UserInfo.js
-|   |   |  └── UserInfo.snapshot.test.js
-│   │   |── UserDetail.css
-│   │   |── UserDetail.js
+│   │   ├──RepoCreation
+│   │   │  ├── __snapshots__
+│   │   │  ├── RepoDetail.css
+│   │   │  ├── RepoDetail.js
+│   │   │  └── RepoDetail.snapshot.test.js
+│   │   ├──UserInfo
+│   │   │  ├── __snapshots__
+│   │   │  ├── UserInfo.css
+│   │   │  ├── UserInfo.js
+│   │   │  └── UserInfo.snapshot.test.js
+│   │   │── UserDetail.css
+│   │   │── UserDetail.js
 │   │   └── UserDetail.snapshot.test
 ├── firebase
 │   ├── firebaseAuthMethod.js
