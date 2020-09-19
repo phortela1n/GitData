@@ -32,6 +32,26 @@
 
 ---
 
+## Feature's DEMO
+
+### Login
+
+![Gif](https://gyazo.com/1527094b903fe4ac45e6cfde74716094.gif)
+
+### Repo details
+
+![Gif](https://gyazo.com/5d8f4da7865710d68f1657a46583d261.gif)
+
+### Create repo
+
+![Gif](https://gyazo.com/db4c0424b694d28730e2e339b067dab7.gif)
+
+### DarkMode
+
+![Gif](https://gyazo.com/cb3c79615c43527655ff8191341450a6.gif)
+
+---
+
 ## Initial Wireframe
 
 ### Mobile layout
@@ -54,6 +74,7 @@
 - flexBox
 - Css3
 - Html5
+- Firebase
 
 ### GitHub API
 
