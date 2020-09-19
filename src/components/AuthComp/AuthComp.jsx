@@ -3,7 +3,7 @@ import { withRouter } from 'react-router-dom';
 import { getGitHubAuthCode } from '../../actions/loginActions';
 import landingStore from '../../stores/landingStore';
 
-import './AuthComp.css';
+import './AuthComp.scss';
 
 export default withRouter(function ({ history }) {
 	const [gitHubCode, setGitHubCode] = useState('');

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import '../../../shared/generalStyles.css';
-import './UserInfo.css';
+import './UserInfo.scss';
 import { Card } from 'react-bootstrap';
 import userDetailStore from '../../../stores/userDetailStore';
 import { loadUserImg } from '../../../actions/userDetailActions';

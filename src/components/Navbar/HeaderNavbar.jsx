@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../shared/generalStyles.css';
-import './HeaderNavbar.css';
+import './HeaderNavbar.scss';
 import { Navbar, Form, FormControl, Button } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import { logout } from '../../actions/loginActions';

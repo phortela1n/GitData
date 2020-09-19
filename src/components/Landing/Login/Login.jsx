@@ -7,7 +7,7 @@ import {
 } from '../../../actions/loginActions';
 import landingStore from '../../../stores/landingStore';
 import '../../../shared/generalStyles.css';
-import './Login.css';
+import './Login.scss';
 import PopUpBox from '../PopUpBox/PopUpBox';
 import { withRouter } from 'react-router-dom';
 import githubApiConst from '../../../shared/githubApiConst';

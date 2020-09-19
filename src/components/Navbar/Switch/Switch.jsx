@@ -1,5 +1,5 @@
 import React from 'react';
-import './Switch.css';
+import './Switch.scss';
 import '../../../shared/generalStyles.css';
 
 function Switch() {

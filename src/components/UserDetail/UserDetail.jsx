@@ -1,4 +1,4 @@
-import './UserDetail.css';
+import './UserDetail.scss';
 import '../../shared/generalStyles.css';
 import { FormControl, Button } from 'react-bootstrap';
 import React, { useEffect, useState } from 'react';
